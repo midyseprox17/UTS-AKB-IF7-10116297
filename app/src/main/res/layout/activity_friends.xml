@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+Dibuat pada : 22 Mei 2019
+BIM : 10116297
+Nama : Muhammad Ilham Siddiqqulhakim
+-->
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/friend"
     xmlns:app="http://schemas.android.com/apk/res-auto"

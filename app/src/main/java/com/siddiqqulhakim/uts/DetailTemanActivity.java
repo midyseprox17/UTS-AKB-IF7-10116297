@@ -1,3 +1,7 @@
+/*Dibuat pada : 22 Mei 2019
+BIM : 10116297
+Nama : Muhammad Ilham Siddiqqulhakim*/
+
 package com.siddiqqulhakim.uts;
 
 import android.content.Intent;
