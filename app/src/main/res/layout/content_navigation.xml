@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Dibuat pada : 22 Mei 2019
+BIM : 10116297
+Nama : Muhammad Ilham Siddiqqulhakim
+-->
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".NavigationActivity"
+    tools:showIn="@layout/app_bar_navigation">
+
+    <include layout="@layout/profile_layout"></include>
+    <include layout="@layout/contact_layout"
+        android:visibility="gone"></include>
+    <include layout="@layout/activity_friends"
+        android:visibility="gone"></include>
+</android.support.constraint.ConstraintLayout>

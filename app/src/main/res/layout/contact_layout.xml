@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Dibuat pada : 22 Mei 2019
+BIM : 10116297
+Nama : Muhammad Ilham Siddiqqulhakim
+-->
+
+<ScrollView
+    android:id="@+id/contact"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pink">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btnLine"
+                android:layout_width="103dp"
+                android:layout_height="106dp"
+                android:layout_marginStart="28dp"
+                android:layout_marginLeft="28dp"
+                android:layout_marginTop="36dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnEmail"
+                android:background="@drawable/line_icon"
+                android:onClick="buka_line"/>
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="195dp"
+                android:layout_height="55dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="60dp"
+                android:gravity="center|left"
+                android:shadowColor="@color/colorWhite"
+                android:text="ID : VPAO"
+                android:textColor="@color/colorWhite"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/btnLine"
+                app:layout_constraintTop_toBottomOf="@+id/btnEmail" />
+
+            <Button
+                android:id="@+id/btnTlp"
+                android:layout_width="103dp"
+                android:layout_height="106dp"
+                android:layout_marginStart="28dp"
+                android:layout_marginLeft="28dp"
+                android:layout_marginTop="60dp"
+                android:background="@drawable/contact_icon"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:onClick="telepon"/>
+
+            <Button
+                android:id="@+id/btnEmail"
+                android:layout_width="103dp"
+                android:layout_height="106dp"
+                android:layout_marginStart="184dp"
+                android:layout_marginLeft="184dp"
+                android:layout_marginTop="36dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="28dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.767"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnTlp"
+                android:background="@drawable/email_icon"
+                android:onClick="kirim_email"/>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="243dp"
+                android:layout_height="56dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginEnd="12dp"
+                android:layout_marginRight="12dp"
+                android:gravity="center|right"
+                android:shadowColor="@color/colorWhite"
+                android:text="midyseprox17@gmail.com"
+                android:textColor="@color/colorWhite"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@+id/btnEmail"
+                app:layout_constraintTop_toBottomOf="@+id/btnTlp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="195dp"
+                android:layout_height="55dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="80dp"
+                android:gravity="center|left"
+                android:shadowColor="@color/colorWhite"
+                android:text="0857-5989-8063"
+                android:textColor="@color/colorWhite"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/btnTlp"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </android.support.constraint.ConstraintLayout>
+
+    </HorizontalScrollView>
+
+</ScrollView>

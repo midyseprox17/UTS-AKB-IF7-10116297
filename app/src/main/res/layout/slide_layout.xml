@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+Dibuat pada : 22 Mei 2019
+BIM : 10116297
+Nama : Muhammad Ilham Siddiqqulhakim
+-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/vpbackground">
+
+    <ImageView
+        android:id="@+id/slide_image"
+        android:layout_width="250dp"
+        android:layout_height="269dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="81dp"
+        android:layout_marginLeft="81dp"
+        android:layout_marginTop="119dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginBottom="343dp"
+        android:contentDescription="@string/todo"
+        app:srcCompat="@drawable/eat_icon" />
+
+    <TextView
+        android:id="@+id/slide_heading"
+        android:layout_width="242dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="88dp"
+        android:layout_marginLeft="88dp"
+        android:layout_marginEnd="81dp"
+        android:layout_marginRight="81dp"
+        android:layout_marginBottom="279dp"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:text="@string/heading"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/slide_desc"
+        android:layout_width="307dp"
+        android:layout_height="99dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="53dp"
+        android:layout_marginLeft="53dp"
+        android:layout_marginEnd="51dp"
+        android:layout_marginRight="51dp"
+        android:layout_marginBottom="173dp"
+        android:foregroundGravity="center"
+        android:gravity="center|top"
+        android:text="@string/asdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddtextview"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp" />
+
+</RelativeLayout>

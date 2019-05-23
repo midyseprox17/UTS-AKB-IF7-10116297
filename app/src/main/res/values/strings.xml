@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">UTS-AKB-IF7-10116297</string>
+    <string name="heading">HEADING</string>
+    <string name="asdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddtextview">asdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddTextView</string>
+    <string name="todo">TODO</string>
+    <string name="title_activity_navigation">UTS-AKB-IF7-10116297</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="menu_home">Home</string>
+</resources>
